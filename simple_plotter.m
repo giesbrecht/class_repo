@@ -20,3 +20,6 @@ ylabel('p(hit)','FontSize',14);
 %plot individual data with means
 hold on;
 plot(binLimits(:,2),all_phit, '.');
+
+%save the figure
+print('my_fig.jpeg','jpeg');
